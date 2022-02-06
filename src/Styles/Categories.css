@@ -1,0 +1,68 @@
+.categories-container{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding:  10px;
+    transition: all 300ms ease;
+}
+.categories-container.active{
+    background-color: rgb(6, 20, 90);
+    color: white;
+}
+.card-categories{
+    display: flex;
+    align-items: center;
+}
+.Personal{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+     width: 300px;
+    margin-right: 20px;
+    border-radius: 10px;
+    background-color: rgb(110, 226, 216);
+    box-shadow: 0 5px 15px grey;
+    color: rgb(68, 65, 65);
+    transition: 300ms ease;
+}
+.Personal :nth-child(1){
+    display: flex;
+    flex-direction: column;
+}
+.Personal h4,.Business h4{
+    font-size: 30px;
+    padding: 0;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+.Personal h5,.Business h5{
+    padding-left: 20px;
+    margin-top: 50px;
+}
+.personal-icon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.Business{
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(245, 47, 90);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px grey;
+    color: rgb(68, 65, 65);
+    transition: 300ms ease;
+}
+.business-icon{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.Business:hover,.Personal:hover{
+    transform: scale(1.05);
+}

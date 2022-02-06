@@ -1,0 +1,42 @@
+{
+  "tasks": [
+    {
+      "task": "Business Meeting",
+      "isCompleted": false,
+      "category": "Business",
+      "id": 2.048449065330903
+    },
+    {
+      "task": "Feed the dogs",
+      "isCompleted": false,
+      "category": "Personal",
+      "id": 2.904782296335263
+    },
+    {
+      "task": "Make Business reports",
+      "isCompleted": false,
+      "category": "Business",
+      "id": 2.2048450557198582
+    },
+    {
+      "task": "Clean the dishes",
+      "isCompleted": false,
+      "category": "Personal",
+      "categoryCount": {
+        "personal": 0,
+        "business": 0
+      },
+      "id": 2.79164577707397
+    }
+  ],
+  "task_categories": [
+    {
+      "id": 1,
+      "category": "Business"
+    },
+    {
+      "id": 2,
+      "category": "Peronal"
+    }
+  ]
+}
